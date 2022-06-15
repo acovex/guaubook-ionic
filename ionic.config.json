@@ -1,7 +1,0 @@
-{
-  "name": "guabook-ionic",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
