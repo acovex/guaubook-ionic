@@ -7,9 +7,15 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   public appPages = [
+    // planet
+    {
+      title: 'MENU_LABELS.HOME',
+      url: '/folder/home',
+      icon: 'planet',
+    },
     {
       title: 'MENU_LABELS.PUBLIC_APIS',
-      url: '/folder/Inbox',
+      url: '/folder/public-apis',
       icon: 'rocket',
     },
     { title: 'Outbox', url: '/folder/Outbox', icon: 'paper-plane' },
