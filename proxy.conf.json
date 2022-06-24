@@ -1,0 +1,14 @@
+{
+  "/public-apis": {
+    "target": "https://api.publicapis.org/entries",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "pathRewrite": {
+      "^/public-apis": ""
+    }
+  }
+}

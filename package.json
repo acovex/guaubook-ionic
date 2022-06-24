@@ -2,7 +2,7 @@
   "name": "guabook-ionic",
   "version": "0.0.1-alpha.1",
   "author": "Alejandro Coves Vives",
-  "homepage": "https://guabook-ionic.netlify.app/folder/Inbox",
+  "homepage": "https://guabook-ionic.netlify.app/folder/home",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

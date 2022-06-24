@@ -13,7 +13,7 @@ export class ApiService {
   protected apiUrl: string;
   private headers: HttpHeaders;
 
-  constructor(private http: HttpClient) {}
+  constructor(protected http: HttpClient) {}
 
   setNewApiUrl(newApiUrl: string) {
     this.apiUrl = newApiUrl;
@@ -24,6 +24,7 @@ export class ApiService {
   }
 
   get<I>(endPoint: string, headers?: HttpHeaders): Observable<I> {
+    endPoint = endPoint || '';
     this.setHeaders(headers);
     return this.http.get(`${this.apiUrl}${endPoint}`, {
       headers: this.headers,
